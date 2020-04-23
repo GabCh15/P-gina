@@ -1,0 +1,275 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Alcaldía de Bogotá</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <img src="logo.png" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://bogota.gov.co/mi-ciudad">Mi ciudad <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://bogota.gov.co/que-hacer">¿Qué hacer?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://bogota.gov.co/servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://bogota.gov.co/yo-participo">Yo participo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://bogota.gov.co/asi-vamosx">Así vamos</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleCaptions" class="carousel slide bg-white" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="logo-bogota.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Coronavirus19.jpg" class="d-block w-100" alt="...">
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <a class="text-white" href="#Noticias">
+                            <h1>Nuevas medidas frente al coronavirus</h1>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="fabricacion-casera-de-tapabocas.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption text-center">
+                    <h1 class="text-dark">¿Escasez de tapabocas?</h1>
+                    <a class="text-light"
+                        href="https://bogota.gov.co/mi-ciudad/salud/coronavirus/fabricar-tapabocas-en-casa-para-protegerse-del-coronavirus">
+                        <h1>Conoce estas tres maneras de fabricarlos en casa</h1>
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Marketing messaging and featurettes
+      ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <br><br><br>
+    <h1 id="Noticias" class="container text-center"><strong>Noticias</strong> </h1><br><br><br>
+    <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="perro.jpg" alt="Generic placeholder image" width="140" height="140">
+                <br><br>
+                <a href="https://bogota.gov.co/mi-ciudad/salud/coronavirus/no-habra-restriccion-de-movilidad-por-sexo-para-sacar-las-mascotas"
+                    class="text-dark">
+                    <h2>¡No habrá restricción de movilidad por sexo en Bogotá para sacar a tu mascota!</h2>
+                </a>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="claudia-cuarentena-extension.jpg" alt="Generic placeholder image"
+                    width="140" height="140">
+                <br><br>
+                <a class="text-dark"
+                    href="https://bogota.gov.co/mi-ciudad/salud/coronavirus/queremos-salvar-vidas-sin-dejar-un-lado-el-empleo-claudia-lopez">
+                    <h2>“Todos queremos salvar vidas sin dejar a un lado el empleo”: Claudia López</h2>
+                </a>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="carpas.jpg" alt="Generic placeholder image" width="140" height="140">
+                <br><br>
+                <a class="text-dark"
+                    href="https://bogota.gov.co/mi-ciudad/salud/coronavirus/albergues-temporales-de-aislamiento-preventivo">
+                    <h2>Así funcionarán los alojamientos temporales para el aislamiento preventivo</h2>
+                </a>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </div><!-- /.row -->
+    <br><br><br>
+
+    <h1 id="Sugerencias" class="container text-center"><strong> Sugerencias</strong></h1>
+    <br><br><br>
+    <div class="container marketing">
+        <div class="row">
+            <div class="col-lg-4">
+                <a href="https://bogota.gov.co/mi-ciudad/participacion-y-cultura-ciudadana/mujeres-participen-en-esta-encuesta-del-plan-de-desarrollo-de-bogota"
+                    class="text-dark">
+                    <p> PARTICIPACIÓN Y CULTURA CIUDADANA</p>
+                    <h2>Escuchamos a las mujeres: participen en esta encuesta del Plan de Desarrollo</h2>
+                </a>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <a class="text-dark"
+                    href="https://bogota.gov.co/mi-ciudad/salud/coronavirus/abastecimiento-8061-toneladas-de-alimentos-ingresaron-corabastos">
+                    <p>CORONAVIRUS</p>
+                    <h2>Abastecimiento en Bogotá: 8.061 toneladas de alimentos ingresaron a Corabastos</h2>
+                </a>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <a class="text-dark"
+                    href="https://bogota.gov.co/mi-ciudad/gestion-publica/cursos-gratis-de-tecnologia-de-la-alcaldia-de-bogota">
+                    <p>GESTIÓN PÚBLICA</p>
+                    <h2>La Alcaldía de Bogotá te ofrece 8 cursos gratis sobre tecnología</h2>
+                </a>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+    <br><br><br>
+
+    <!-- FOOTER -->
+    <footer id="sticky-footer" class="py-4 bg-dark text-light">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+                <p><strong>ALCALDÍA DE BOGOTÁ</strong><br>
+                    Cra 8 N° 10-65 / Tel: +57 (1) 381-3000 <br>
+                    Horario de atención al público: <br>
+                    Lunes a viernes de 7:00 a.m. a 4:30 p.m.</p>
+            </div>
+            <div class="col-4">
+                <section class="mb-4">
+
+                    <!--Section heading-->
+
+
+
+
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5 container">
+                        <div class=" text-center">
+                            <h3><strong> ¿NECESITAS AYUDA? </strong>
+                                <h6> No dudes en contactarnos con el siguiente formulario o llamando a nuestra línea de
+                                    atención</h6>
+                            </h3><br>
+                        </div>
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0"><label for="name">Nombre</label>
+                                        <input type="text" id="name" name="name" placeholder="Nombre..."
+                                            class="form-control">
+
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0"><label for="email" class="">Correo electrónico</label>
+                                        <input type="text" id="email" placeholder="Correo..." name="email"
+                                            class="form-control">
+
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0"> <label for="subject" class="">Asunto</label>
+                                        <input type="text" id="subject" name="subject" placeholder="Asunto..."
+                                            class="form-control">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+
+                                    <div class="md-form"><label for="message">Mensaje</label>
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></textarea>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                        </form>
+
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary">Enviar</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                    <!--Grid column-->
+
+
+
+
+
+                </section>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="container text-center">
+            <br>
+            <small>
+                <p class="text-white-50">&copy;Derechos de autor reservados &middot; <a href="#">Privacidad</a>
+                    &middot; <a href="#">Términos</a>
+            </small>
+        </div>
+        <!--Section: Contact v.2-->
+
+    </footer>
+</body>
+
+</body>
+
+</html>
