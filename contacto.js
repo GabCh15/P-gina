@@ -19,6 +19,10 @@ function validaForm() {
         alert("El campo Mensaje no puede estar vacío.");
 
     }
+    if(!$("#name").val() == "" && !$("#email").val() == "" && !$("#subject").val() == "" && !$("#message").val() == ""){
+        $("#exito").delay(500).fadeIn("slow")
+        $("#exito").delay(5000).fadeOut("slow")
+    }
 
 }
 

@@ -23,7 +23,10 @@ function validaFormReg() {
         alert("No puede ser menor de edad.");
 
     }
-
+    if(!$("#nombre").val() == "" && !$("#apellido").val() == "" && !$("#correoIni").val() == "" && !$("#contraseña").val() == "" && $("#mayor").is(":checked")){
+        $("#exito").delay(500).fadeIn("slow")
+        $("#exito").delay(5000).fadeOut("slow")
+    }
 }
 
 $(document).ready(function () {

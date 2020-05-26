@@ -9,6 +9,15 @@ function validaFormIni() {
         $("#contraseña").focus();
 
     }
+    if(!$("#correoIni").val() == "" && !$("#contraseña").val() == ""){
+        $("#exito").delay(500).fadeIn("slow")
+        $("#exito").delay(5000).fadeOut("slow")
+    }
+
+
+
+
+
 
 
 }
@@ -16,5 +25,6 @@ function validaFormIni() {
 $(document).ready(function () {
     $("#btnEnviaReg").click(function () {
         validaFormIni()
+
     });
 });
